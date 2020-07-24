@@ -1,0 +1,38 @@
+.elementexemplo{
+  width: 200px;
+  height: 200px;
+  line-height: 200px; /*Para centralizar o elemento verticalmente.*/
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.first{
+  background-color: purple;
+  position: absolute; /*O position absolute utiliza como referência a tela inteira. OBS: O POSITION ABSOLUTE CRIAR UM NOVO CONTEXTO.*/
+  right: 0;
+}
+.second{
+  background-color: aquamarine;
+  position: absolute;
+  left: 50%;
+  /* transform: translateX(-50%) translateY(-50%); */
+  transform: translate(-50%, -50%); /*faz o mesmo que o de cima;*/
+  /*Translate trabalha com o elemento, logo esses 50% é do elemento, em referência a ele.*/
+  top: 50%;
+}
+.third{
+  background-color: rgb(30, 255, 0);
+  position: relative; /*o pai tem quer ter position diferente de static pois se não o filha n respeita ele...  */
+}
+.interno{
+  position: absolute; /*O position absolute só respeita a "pai" dele, se o pai não for position:static ou ele vai pegar a tela...*/
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /*O eixo é (x, y);*/
+  width: 100px;
+  height: 100pxpx;
+  line-height: 100px;
+  background-color: rgb(255, 20, 20);
+}

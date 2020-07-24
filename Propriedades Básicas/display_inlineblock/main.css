@@ -1,0 +1,27 @@
+.exemplo{
+  color: white;
+  text-align: justify; /*O inline-block ganha comportamento de plavra, por isso text-align funciona;*/
+  font-size: 30px;
+}
+/* o justify pega em todos os elementos, exceto no ultimo, por isso a gente usou o after, OBS: ELE TEM Q TER WIDTH DE 100% */
+.exemplo::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.exemplo-item{
+  text-align: center;
+  display: inline-block; /*inline + block, ele vai funcioanr como um texto pra o posocionamento ou seja ganha comportamento de palavra, text-align...*/
+  width: 20%;
+  height: 150px;
+}
+.primeiro{
+  background-color: orange;
+}
+.segundo{
+  background-color: rgb(127, 157, 255);
+}
+.terceiro{
+  background-color: pink;
+  
+}

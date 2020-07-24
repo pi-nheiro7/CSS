@@ -1,0 +1,25 @@
+.elementexemplo{
+  width: 200px;
+  height: 200px;
+  line-height: 200px; /*Para centralizar o elemento verticalmente.*/
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.first{
+  background-color: purple;
+  /* position:static é o position padrão que vem no css. */
+  position: relative; /* com o relative pega a referencia de onde ele foi criado e com ele dá pra usar top, right, bot, left e z-index.*/
+  top: 200px;
+}
+.second{
+  background-color: aquamarine;
+  /* z-index: 1; 0 é o valor padrão, mas ele não funciona com o padrão(static) tem q ser relative. */
+  position: relative;
+}
+
+.elementExample_isActive{
+  z-index: 1;
+}

@@ -1,0 +1,19 @@
+.exemplo{
+  color: white;
+  text-align: center;
+}
+.exemplo-item{
+  /* width: 33.333%;
+  height: 150px; */
+  display: inline; //a propriedade display inline não deixa que a gente coloque altura e largura nos elementos.
+  /* logo esse não é o melhro jeito de se colocar os itens do lado um do outro como vc pensou... */
+}
+.primeiro{
+  background-color: orange;
+}
+.segundo{
+  background-color: aquamarine;
+}
+.terceiro{
+  background-color: pink;
+}
