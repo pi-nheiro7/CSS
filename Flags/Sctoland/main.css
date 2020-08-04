@@ -1,0 +1,28 @@
+.flag{
+  width: 90%;
+  height: 920px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2C37BC;
+}
+
+.diagonal1{
+  width: 115%;
+  height: 150px;
+  background-color: white;
+  transform: rotate(25deg);
+  position: relative;
+  top: 41%;
+  left: -8%;
+}
+.diagonal2{
+  width: 150px;
+  height: 219%;
+  background-color: white;
+  position: absolute;
+  left: 47%;
+  transform: translateX(-50%);
+  top: -542px;
+  transform: rotate(63deg);
+}
